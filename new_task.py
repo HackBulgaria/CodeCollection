@@ -50,7 +50,7 @@ def generate_metadata(unique_id, name, tags, short_description):
 
 
 def generate_task_name(name, unique_id):
-    name = name.replace(" ", "_")
+    name = name.replace(" ", "_").lower()
     return "{}-{}".format(name, unique_id)
 
 
