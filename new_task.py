@@ -49,6 +49,11 @@ def generate_metadata(unique_id, name, tags, short_description):
     return result
 
 
+def generate_task_name(name, unique_id):
+    name = name.replace(" ", "_")
+    return "{}-{}".format(name, unique_id)
+
+
 def generate_description_md(name, short_description):
     template = "# {} \n\n {} \n"
     return template.format(name, short_description)
@@ -72,7 +77,8 @@ def update_index(index_data, metadata):
     unique_id = metadata["unique_id"]
     index_data[unique_id] = {
         "tags": metadata["tags"],
-        "index": get_latest_index(index_data) + 1
+        "index": get_latest_index(index_data) + 1,
+        "name": metadata["name"]
     }
 
 
@@ -100,7 +106,7 @@ def main():
     metadata = generate_metadata(unique_id, name, tags, short_description)
     description_md = generate_description_md(name, short_description)
 
-    create_path = TASKS_FOLDER + unique_id
+    create_path = TASKS_FOLDER + generate_task_name(name, unique_id)
     ensure_or_create(create_path)
 
     write_metadata(create_path, metadata)
