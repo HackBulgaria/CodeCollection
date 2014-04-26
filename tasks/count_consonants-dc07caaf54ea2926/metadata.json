@@ -1,0 +1,10 @@
+{
+    "unique_id": "dc07caaf54ea2926", 
+    "short_description": "Check how many consonants does a given string contain.", 
+    "name": "Count consonants", 
+    "tags": [
+        "beginner", 
+        "for-loops", 
+        "strings"
+    ]
+}
