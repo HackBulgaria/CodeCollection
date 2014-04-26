@@ -9,7 +9,7 @@ The most annoying problem of all. Implement a function, called ```nth_fibonacci(
 ```python
 def nth_fibonacci(n):
     #implementation here
-    ```
+```
 
 ### Test examples
 
