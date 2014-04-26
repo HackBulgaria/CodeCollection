@@ -1,6 +1,8 @@
 from hashlib import sha1
 import json
 import os
+from time import time
+
 
 TASKS_FOLDER = "tasks/"
 
@@ -24,6 +26,7 @@ def generate_unique_id(name, short_description, tags):
     encription.update(name.encode('utf-8'))
     encription.update(short_description.encode('utf-8'))
     encription.update(''.join(tags).encode('utf-8'))
+    encription.update(str(time()).encode('utf-8'))
     unique_id = encription.hexdigest()[:16]
     return unique_id
 
@@ -100,8 +103,8 @@ def main():
     print(unique_id)
 
     while unique_id in index_data:
-        # generate new unique id
         print("WARNING:{} found in index".format(unique_id))
+        unique_id = generate_unique_id(name, short_description, tags)
 
     metadata = generate_metadata(unique_id, name, tags, short_description)
     description_md = generate_description_md(name, short_description)

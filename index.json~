@@ -43,6 +43,13 @@
         "index": 7, 
         "name": "Integer palindromes"
     }, 
+    "05d6f6131ab50361": {
+        "name": "a", 
+        "tags": [
+            "a"
+        ], 
+        "index": 17
+    }, 
     "fe9bc11a800364ac": {
         "tags": [
             "beginner", 
@@ -67,6 +74,13 @@
         ], 
         "index": 10, 
         "name": "balanced numbers"
+    }, 
+    "835f462a6f36c7c6": {
+        "tags": [
+            "a"
+        ], 
+        "index": 16, 
+        "name": "a"
     }, 
     "3a2fa4dd062372eb": {
         "tags": [
