@@ -1,0 +1,9 @@
+{
+    "tags": [
+        "beginner", 
+        "split"
+    ], 
+    "name": "number to list", 
+    "short_description": "Return a given number's digits as a list.", 
+    "unique_id": "7b436f353c02ecc9"
+}
