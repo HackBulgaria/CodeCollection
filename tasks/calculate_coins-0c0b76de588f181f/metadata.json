@@ -1,0 +1,10 @@
+{
+    "name": "calculate coins", 
+    "tags": [
+        "beginner", 
+        "for-loops", 
+        "math"
+    ], 
+    "unique_id": "0c0b76de588f181f", 
+    "short_description": "Implement a function which returns the minimal amount of coins needed to represent a given sum"
+}
