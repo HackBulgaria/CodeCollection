@@ -1,58 +1,15 @@
 {
-    "9c04ba77c9fb623e": {
-        "index": 7, 
-        "name": "Integer palindromes", 
+    "7b436f353c02ecc9": {
+        "name": "number to list", 
+        "index": 14, 
         "tags": [
             "beginner", 
-            "string-slicing"
-        ]
-    }, 
-    "8fe1595ff290e91c": {
-        "index": 5, 
-        "name": "prime number of divisors", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "cb17b243823dd65a": {
-        "index": 1, 
-        "name": "nth-fibonacci", 
-        "tags": [
-            "for-loop", 
-            "recursion", 
-            "beginner", 
-            "memoization"
-        ]
-    }, 
-    "2f63b3e54cdfe574": {
-        "index": 10, 
-        "name": "balanced numbers", 
-        "tags": [
-            "beginner", 
-            "string-slicing", 
-            "for-loops"
-        ]
-    }, 
-    "30a65c13cfd18ab7": {
-        "index": 15, 
-        "name": "list to number", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "443103a26b420243": {
-        "index": 9, 
-        "name": "contains digits", 
-        "tags": [
-            "beginner", 
-            "for-loops"
+            "split"
         ]
     }, 
     "c0deb3d3b8878660": {
-        "index": 2, 
         "name": "sum of all digits", 
+        "index": 2, 
         "tags": [
             "for-loop", 
             "beginner", 
@@ -60,37 +17,68 @@
             "recursion"
         ]
     }, 
-    "9bc0a66fde203381": {
-        "index": 6, 
-        "name": "n sevens in a row", 
+    "2f63b3e54cdfe574": {
+        "name": "balanced numbers", 
+        "index": 10, 
         "tags": [
-            "lists", 
             "beginner", 
-            "for-loops", 
-            "if-clause"
+            "string-slicing", 
+            "for-loops"
         ]
     }, 
-    "3a2fa4dd062372eb": {
-        "index": 12, 
-        "name": "count vowels", 
+    "8fe1595ff290e91c": {
+        "name": "prime number of divisors", 
+        "index": 5, 
         "tags": [
             "beginner", 
-            "for-loops", 
-            "strings"
+            "for-loops"
         ]
     }, 
-    "dc07caaf54ea2926": {
-        "index": 13, 
-        "name": "Count consonants", 
+    "443103a26b420243": {
+        "name": "contains digits", 
+        "index": 9, 
         "tags": [
             "beginner", 
+            "for-loops"
+        ]
+    }, 
+    "fe9bc11a800364ac": {
+        "name": "contains digit", 
+        "index": 8, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ]
+    }, 
+    "0d9215abee86a171": {
+        "name": "counting substrings", 
+        "index": 11, 
+        "tags": [
+            "beginner", 
+            "strings", 
+            "while"
+        ]
+    }, 
+    "9c04ba77c9fb623e": {
+        "name": "Integer palindromes", 
+        "index": 7, 
+        "tags": [
+            "beginner", 
+            "string-slicing"
+        ]
+    }, 
+    "20b8e19a81083ca7": {
+        "name": "Check if integer is prime", 
+        "index": 4, 
+        "tags": [
             "for-loops", 
-            "strings"
+            "if-clause", 
+            "beginner"
         ]
     }, 
     "c37efda56e369d7e": {
-        "index": 3, 
         "name": "Sum all divisors of an integer", 
+        "index": 3, 
         "tags": [
             "for-loop", 
             "modulo-divisio", 
@@ -99,38 +87,59 @@
             "integer"
         ]
     }, 
-    "20b8e19a81083ca7": {
-        "index": 4, 
-        "name": "Check if integer is prime", 
+    "3178ee98975144e0": {
+        "name": "biggest difference", 
+        "index": 16, 
         "tags": [
+            "beginner", 
             "for-loops", 
-            "if-clause", 
-            "beginner"
+            "arrays"
         ]
     }, 
-    "fe9bc11a800364ac": {
-        "index": 8, 
-        "name": "contains digit", 
+    "3a2fa4dd062372eb": {
+        "name": "count vowels", 
+        "index": 12, 
+        "tags": [
+            "beginner", 
+            "for-loops", 
+            "strings"
+        ]
+    }, 
+    "cb17b243823dd65a": {
+        "name": "nth-fibonacci", 
+        "index": 1, 
+        "tags": [
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
+        ]
+    }, 
+    "9bc0a66fde203381": {
+        "name": "n sevens in a row", 
+        "index": 6, 
+        "tags": [
+            "lists", 
+            "beginner", 
+            "for-loops", 
+            "if-clause"
+        ]
+    }, 
+    "30a65c13cfd18ab7": {
+        "name": "list to number", 
+        "index": 15, 
         "tags": [
             "beginner", 
             "for-loops"
         ]
     }, 
-    "0d9215abee86a171": {
-        "index": 11, 
-        "name": "counting substrings", 
+    "dc07caaf54ea2926": {
+        "name": "Count consonants", 
+        "index": 13, 
         "tags": [
             "beginner", 
-            "strings", 
-            "while"
-        ]
-    }, 
-    "7b436f353c02ecc9": {
-        "index": 14, 
-        "name": "number to list", 
-        "tags": [
-            "beginner", 
-            "split"
+            "for-loops", 
+            "strings"
         ]
     }
 }

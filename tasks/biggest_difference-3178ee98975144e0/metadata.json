@@ -1,0 +1,10 @@
+{
+    "name": "biggest difference", 
+    "tags": [
+        "beginner", 
+        "for-loops", 
+        "arrays"
+    ], 
+    "unique_id": "3178ee98975144e0", 
+    "short_description": "Get the biggest difference of each pair of numbers from a given list."
+}
