@@ -1,0 +1,9 @@
+{
+    "short_description": "Check if a given number has a prime number of divisors", 
+    "name": "prime number of divisors", 
+    "unique_id": "8fe1595ff290e91c", 
+    "tags": [
+        "beginner", 
+        "for-loops"
+    ]
+}

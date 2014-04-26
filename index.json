@@ -1,15 +1,6 @@
 {
-    "cb17b243823dd65a": {
-        "tags": [
-            "for-loop", 
-            "recursion", 
-            "beginner", 
-            "memoization"
-        ], 
-        "name": "nth-fibonacci", 
-        "index": 1
-    }, 
     "c37efda56e369d7e": {
+        "name": "Sum all divisors of an integer", 
         "tags": [
             "for-loop", 
             "modulo-divisio", 
@@ -17,17 +8,53 @@
             "recursion", 
             "integer"
         ], 
-        "name": "Sum all divisors of an integer", 
         "index": 3
     }, 
+    "cb17b243823dd65a": {
+        "name": "nth-fibonacci", 
+        "tags": [
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
+        ], 
+        "index": 1
+    }, 
+    "9bc0a66fde203381": {
+        "name": "n sevens in a row", 
+        "tags": [
+            "lists", 
+            "beginner", 
+            "for-loops", 
+            "if-clause"
+        ], 
+        "index": 6
+    }, 
+    "20b8e19a81083ca7": {
+        "name": "Check if integer is prime", 
+        "tags": [
+            "for-loops", 
+            "if-clause", 
+            "beginner"
+        ], 
+        "index": 4
+    }, 
     "c0deb3d3b8878660": {
+        "name": "sum of all digits", 
         "tags": [
             "for-loop", 
             "beginner", 
             "modulo-division", 
             "recursion"
         ], 
-        "name": "sum of all digits", 
         "index": 2
+    }, 
+    "8fe1595ff290e91c": {
+        "name": "prime number of divisors", 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ], 
+        "index": 5
     }
 }

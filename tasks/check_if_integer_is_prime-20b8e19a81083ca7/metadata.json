@@ -1,0 +1,10 @@
+{
+    "tags": [
+        "for-loops", 
+        "if-clause", 
+        "beginner"
+    ], 
+    "name": "Check if integer is prime", 
+    "short_description": "Check if a given integer is a prime number.", 
+    "unique_id": "20b8e19a81083ca7"
+}

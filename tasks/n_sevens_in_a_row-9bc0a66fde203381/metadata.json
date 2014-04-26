@@ -1,0 +1,11 @@
+{
+    "name": "n sevens in a row", 
+    "tags": [
+        "lists", 
+        "beginner", 
+        "for-loops", 
+        "if-clause"
+    ], 
+    "unique_id": "9bc0a66fde203381", 
+    "short_description": "Check if a given array contains n consecutive sevens"
+}
