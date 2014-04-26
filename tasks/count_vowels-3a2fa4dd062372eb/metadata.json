@@ -1,0 +1,10 @@
+{
+    "unique_id": "3a2fa4dd062372eb", 
+    "tags": [
+        "beginner", 
+        "for-loops", 
+        "strings"
+    ], 
+    "name": "count vowels", 
+    "short_description": "Check how many vowels does a given string contain."
+}

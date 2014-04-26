@@ -1,31 +1,84 @@
 {
     "9c04ba77c9fb623e": {
-        "index": 7, 
-        "name": "Integer palindromes", 
         "tags": [
             "beginner", 
             "string-slicing"
-        ]
+        ], 
+        "name": "Integer palindromes", 
+        "index": 7
+    }, 
+    "8fe1595ff290e91c": {
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ], 
+        "name": "prime number of divisors", 
+        "index": 5
+    }, 
+    "c0deb3d3b8878660": {
+        "tags": [
+            "for-loop", 
+            "beginner", 
+            "modulo-division", 
+            "recursion"
+        ], 
+        "name": "sum of all digits", 
+        "index": 2
+    }, 
+    "c37efda56e369d7e": {
+        "tags": [
+            "for-loop", 
+            "modulo-divisio", 
+            "beginner", 
+            "recursion", 
+            "integer"
+        ], 
+        "name": "Sum all divisors of an integer", 
+        "index": 3
+    }, 
+    "fe9bc11a800364ac": {
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ], 
+        "name": "contains digit", 
+        "index": 8
+    }, 
+    "2f63b3e54cdfe574": {
+        "tags": [
+            "beginner", 
+            "string-slicing", 
+            "for-loops"
+        ], 
+        "name": "balanced numbers", 
+        "index": 10
+    }, 
+    "20b8e19a81083ca7": {
+        "tags": [
+            "for-loops", 
+            "if-clause", 
+            "beginner"
+        ], 
+        "name": "Check if integer is prime", 
+        "index": 4
     }, 
     "9bc0a66fde203381": {
-        "index": 6, 
-        "name": "n sevens in a row", 
         "tags": [
             "lists", 
             "beginner", 
             "for-loops", 
             "if-clause"
-        ]
+        ], 
+        "name": "n sevens in a row", 
+        "index": 6
     }, 
-    "cb17b243823dd65a": {
-        "index": 1, 
-        "name": "nth-fibonacci", 
+    "443103a26b420243": {
         "tags": [
-            "for-loop", 
-            "recursion", 
             "beginner", 
-            "memoization"
-        ]
+            "for-loops"
+        ], 
+        "name": "contains digits", 
+        "index": 9
     }, 
     "0d9215abee86a171": {
         "tags": [
@@ -33,70 +86,26 @@
             "strings", 
             "while"
         ], 
-        "name": "counting substrings", 
-        "index": 11
+        "index": 11, 
+        "name": "counting substrings"
     }, 
-    "fe9bc11a800364ac": {
-        "index": 8, 
-        "name": "contains digit", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "8fe1595ff290e91c": {
-        "index": 5, 
-        "name": "prime number of divisors", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "c0deb3d3b8878660": {
-        "index": 2, 
-        "name": "sum of all digits", 
+    "cb17b243823dd65a": {
         "tags": [
             "for-loop", 
-            "beginner", 
-            "modulo-division", 
-            "recursion"
-        ]
-    }, 
-    "c37efda56e369d7e": {
-        "index": 3, 
-        "name": "Sum all divisors of an integer", 
-        "tags": [
-            "for-loop", 
-            "modulo-divisio", 
-            "beginner", 
             "recursion", 
-            "integer"
-        ]
+            "beginner", 
+            "memoization"
+        ], 
+        "name": "nth-fibonacci", 
+        "index": 1
     }, 
-    "20b8e19a81083ca7": {
-        "index": 4, 
-        "name": "Check if integer is prime", 
+    "3a2fa4dd062372eb": {
         "tags": [
+            "beginner", 
             "for-loops", 
-            "if-clause", 
-            "beginner"
-        ]
-    }, 
-    "2f63b3e54cdfe574": {
-        "index": 10, 
-        "name": "balanced numbers", 
-        "tags": [
-            "beginner", 
-            "string-slicing", 
-            "for-loops"
-        ]
-    }, 
-    "443103a26b420243": {
-        "index": 9, 
-        "name": "contains digits", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
+            "strings"
+        ], 
+        "name": "count vowels", 
+        "index": 12
     }
 }
