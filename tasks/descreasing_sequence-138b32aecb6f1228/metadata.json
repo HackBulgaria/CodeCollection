@@ -1,0 +1,10 @@
+{
+    "short_description": "Check if a given sequence is monotonously decreasing", 
+    "unique_id": "138b32aecb6f1228", 
+    "tags": [
+        "beginner", 
+        "arrays", 
+        "for-loops"
+    ], 
+    "name": "Descreasing sequence"
+}
