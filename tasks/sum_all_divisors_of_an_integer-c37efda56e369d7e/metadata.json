@@ -1,0 +1,12 @@
+{
+    "tags": [
+        "for-loop", 
+        "modulo-divisio", 
+        "beginner", 
+        "recursion", 
+        "integer"
+    ], 
+    "unique_id": "c37efda56e369d7e", 
+    "name": "Sum all divisors of an integer", 
+    "short_description": "Find the sum of all divisiors of a given integer."
+}

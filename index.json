@@ -1,4 +1,25 @@
 {
+    "cb17b243823dd65a": {
+        "tags": [
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
+        ], 
+        "name": "nth-fibonacci", 
+        "index": 1
+    }, 
+    "c37efda56e369d7e": {
+        "tags": [
+            "for-loop", 
+            "modulo-divisio", 
+            "beginner", 
+            "recursion", 
+            "integer"
+        ], 
+        "name": "Sum all divisors of an integer", 
+        "index": 3
+    }, 
     "c0deb3d3b8878660": {
         "tags": [
             "for-loop", 
@@ -8,15 +29,5 @@
         ], 
         "name": "sum of all digits", 
         "index": 2
-    }, 
-    "cb17b243823dd65a": {
-        "index": 1, 
-        "name": "nth-fibonacci", 
-        "tags": [
-            "for-loop", 
-            "recursion", 
-            "beginner", 
-            "memoization"
-        ]
     }
 }
