@@ -1,2 +1,12 @@
 {
+    "cb17b243823dd65a": {
+        "index": 1, 
+        "name": "nth-fibonacci", 
+        "tags": [
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
+        ]
+    }
 }

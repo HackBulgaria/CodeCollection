@@ -1,0 +1,11 @@
+{
+    "unique_id": "cb17b243823dd65a", 
+    "short_description": "Find the nth number in the Fibonacci sequence", 
+    "name": "nth-fibonacci", 
+    "tags": [
+        "for-loop", 
+        "recursion", 
+        "beginner", 
+        "memoization"
+    ]
+}
