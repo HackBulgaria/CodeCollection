@@ -1,0 +1,10 @@
+{
+    "short_description": "Implement a function which returns the prime factorization of a given number", 
+    "name": "Integer prime factorization", 
+    "tags": [
+        "for-loops", 
+        "beginner", 
+        "math"
+    ], 
+    "unique_id": "5ceb67a30141aea4"
+}

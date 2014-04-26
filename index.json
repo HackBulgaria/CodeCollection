@@ -1,179 +1,188 @@
 {
-    "fe9bc11a800364ac": {
-        "index": 8, 
-        "name": "contains digit", 
+    "3ab8ac2e97066adb": {
+        "index": 20, 
+        "tags": [
+            "if-clauses", 
+            "beginner"
+        ], 
+        "name": "zodiac"
+    }, 
+    "dc07caaf54ea2926": {
+        "index": 13, 
+        "tags": [
+            "beginner", 
+            "for-loops", 
+            "strings"
+        ], 
+        "name": "Count consonants"
+    }, 
+    "5ceb67a30141aea4": {
+        "index": 21, 
+        "tags": [
+            "for-loops", 
+            "beginner", 
+            "math"
+        ], 
+        "name": "Integer prime factorization"
+    }, 
+    "c0deb3d3b8878660": {
+        "index": 2, 
+        "tags": [
+            "for-loop", 
+            "beginner", 
+            "modulo-division", 
+            "recursion"
+        ], 
+        "name": "sum of all digits"
+    }, 
+    "7b436f353c02ecc9": {
+        "index": 14, 
+        "tags": [
+            "beginner", 
+            "split"
+        ], 
+        "name": "number to list"
+    }, 
+    "443103a26b420243": {
+        "index": 9, 
         "tags": [
             "beginner", 
             "for-loops"
-        ]
+        ], 
+        "name": "contains digits"
+    }, 
+    "8fe1595ff290e91c": {
+        "index": 5, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ], 
+        "name": "prime number of divisors"
+    }, 
+    "3178ee98975144e0": {
+        "index": 16, 
+        "tags": [
+            "beginner", 
+            "for-loops", 
+            "arrays"
+        ], 
+        "name": "biggest difference"
+    }, 
+    "30a65c13cfd18ab7": {
+        "index": 15, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ], 
+        "name": "list to number"
+    }, 
+    "d55d192e0fda9e05": {
+        "index": 18, 
+        "tags": [
+            "beginner", 
+            "arrays", 
+            "for-loops"
+        ], 
+        "name": "increasing sequence"
+    }, 
+    "2f63b3e54cdfe574": {
+        "index": 10, 
+        "tags": [
+            "beginner", 
+            "string-slicing", 
+            "for-loops"
+        ], 
+        "name": "balanced numbers"
+    }, 
+    "9c04ba77c9fb623e": {
+        "index": 7, 
+        "tags": [
+            "beginner", 
+            "string-slicing"
+        ], 
+        "name": "Integer palindromes"
+    }, 
+    "3a2fa4dd062372eb": {
+        "index": 12, 
+        "tags": [
+            "beginner", 
+            "for-loops", 
+            "strings"
+        ], 
+        "name": "count vowels"
+    }, 
+    "138b32aecb6f1228": {
+        "index": 19, 
+        "tags": [
+            "beginner", 
+            "arrays", 
+            "for-loops"
+        ], 
+        "name": "Descreasing sequence"
+    }, 
+    "0d9215abee86a171": {
+        "index": 11, 
+        "tags": [
+            "beginner", 
+            "strings", 
+            "while"
+        ], 
+        "name": "counting substrings"
+    }, 
+    "9bc0a66fde203381": {
+        "index": 6, 
+        "tags": [
+            "lists", 
+            "beginner", 
+            "for-loops", 
+            "if-clause"
+        ], 
+        "name": "n sevens in a row"
+    }, 
+    "fe9bc11a800364ac": {
+        "index": 8, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ], 
+        "name": "contains digit"
+    }, 
+    "c1f246cc5f30db00": {
+        "index": 17, 
+        "tags": [
+            "beginner", 
+            "math"
+        ], 
+        "name": "Slope style score"
     }, 
     "cb17b243823dd65a": {
         "index": 1, 
-        "name": "nth-fibonacci", 
         "tags": [
             "for-loop", 
             "recursion", 
             "beginner", 
             "memoization"
-        ]
-    }, 
-    "c1f246cc5f30db00": {
-        "index": 17, 
-        "name": "Slope style score", 
-        "tags": [
-            "beginner", 
-            "math"
-        ]
+        ], 
+        "name": "nth-fibonacci"
     }, 
     "c37efda56e369d7e": {
         "index": 3, 
-        "name": "Sum all divisors of an integer", 
         "tags": [
             "for-loop", 
             "modulo-divisio", 
             "beginner", 
             "recursion", 
             "integer"
-        ]
-    }, 
-    "d55d192e0fda9e05": {
-        "index": 18, 
-        "name": "increasing sequence", 
-        "tags": [
-            "beginner", 
-            "arrays", 
-            "for-loops"
-        ]
+        ], 
+        "name": "Sum all divisors of an integer"
     }, 
     "20b8e19a81083ca7": {
         "index": 4, 
-        "name": "Check if integer is prime", 
         "tags": [
             "for-loops", 
             "if-clause", 
             "beginner"
-        ]
-    }, 
-    "9c04ba77c9fb623e": {
-        "index": 7, 
-        "name": "Integer palindromes", 
-        "tags": [
-            "beginner", 
-            "string-slicing"
-        ]
-    }, 
-    "2f63b3e54cdfe574": {
-        "index": 10, 
-        "name": "balanced numbers", 
-        "tags": [
-            "beginner", 
-            "string-slicing", 
-            "for-loops"
-        ]
-    }, 
-    "138b32aecb6f1228": {
-        "index": 19, 
-        "name": "Descreasing sequence", 
-        "tags": [
-            "beginner", 
-            "arrays", 
-            "for-loops"
-        ]
-    }, 
-    "3a2fa4dd062372eb": {
-        "index": 12, 
-        "name": "count vowels", 
-        "tags": [
-            "beginner", 
-            "for-loops", 
-            "strings"
-        ]
-    }, 
-    "9bc0a66fde203381": {
-        "index": 6, 
-        "name": "n sevens in a row", 
-        "tags": [
-            "lists", 
-            "beginner", 
-            "for-loops", 
-            "if-clause"
-        ]
-    }, 
-    "dc07caaf54ea2926": {
-        "index": 13, 
-        "name": "Count consonants", 
-        "tags": [
-            "beginner", 
-            "for-loops", 
-            "strings"
-        ]
-    }, 
-    "0d9215abee86a171": {
-        "index": 11, 
-        "name": "counting substrings", 
-        "tags": [
-            "beginner", 
-            "strings", 
-            "while"
-        ]
-    }, 
-    "443103a26b420243": {
-        "index": 9, 
-        "name": "contains digits", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "7b436f353c02ecc9": {
-        "index": 14, 
-        "name": "number to list", 
-        "tags": [
-            "beginner", 
-            "split"
-        ]
-    }, 
-    "8fe1595ff290e91c": {
-        "index": 5, 
-        "name": "prime number of divisors", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "3178ee98975144e0": {
-        "index": 16, 
-        "name": "biggest difference", 
-        "tags": [
-            "beginner", 
-            "for-loops", 
-            "arrays"
-        ]
-    }, 
-    "3ab8ac2e97066adb": {
-        "index": 20, 
-        "name": "zodiac", 
-        "tags": [
-            "if-clauses", 
-            "beginner"
-        ]
-    }, 
-    "30a65c13cfd18ab7": {
-        "index": 15, 
-        "name": "list to number", 
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ]
-    }, 
-    "c0deb3d3b8878660": {
-        "index": 2, 
-        "name": "sum of all digits", 
-        "tags": [
-            "for-loop", 
-            "beginner", 
-            "modulo-division", 
-            "recursion"
-        ]
+        ], 
+        "name": "Check if integer is prime"
     }
 }
