@@ -2,10 +2,20 @@ from hashlib import sha1
 import json
 import os
 
+TASKS_FOLDER = "tasks/"
+
+
+def ensure_or_create(folder_name):
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+
 
 def import_index_json(filename):
     with open(filename) as data_file:
-        data = json.load(data_file)
+        try:
+            data = json.load(data_file)
+        except ValueError:
+            data = {}
     return data
 
 
@@ -18,47 +28,85 @@ def generate_unique_id(name, short_description, tags):
     return unique_id
 
 
+def get_latest_index(data):
+    latest = 0
+
+    for key in data:
+        if data[key]["index"] > latest:
+            latest = data[key]["index"]
+
+    return latest
+
+
+def generate_metadata(unique_id, name, tags, short_description):
+    result = {
+        "unique_id": unique_id,
+        "name": name,
+        "short_description": short_description,
+        "tags": tags
+    }
+
+    return result
+
+
+def generate_description_md(name, short_description):
+    template = "# {} \n\n {} \n"
+    return template.format(name, short_description)
+
+
+def write_metadata(path, metadata):
+    file_name = path + "/metadata.json"
+    handle = open(file_name, "w")
+    handle.write(json.dumps(metadata, indent=4))
+    handle.close()
+
+
+def write_description(path, description_md):
+    file_name = path + "/description.md"
+    handle = open(file_name, "w")
+    handle.write(description_md)
+    handle.close()
+
+
+def update_index(index_data, metadata):
+    unique_id = metadata["unique_id"]
+    index_data[unique_id] = {
+        "tags": metadata["tags"],
+        "index": get_latest_index(index_data) + 1
+    }
+
+
+def write_index(index_data):
+    handle = open("index.json", "w")
+    handle.write(json.dumps(index_data, indent=4))
+    handle.close()
+
+
 def main():
+    ensure_or_create(TASKS_FOLDER)
     index_data = import_index_json('index.json')
     print(index_data)
     name = input('Enter name: ')
     short_description = input('Enter short description: ')
     tags = input('Enter tags: ').replace(' ', '').split(',')
-    print(generate_unique_id(name, short_description, tags))
-    unique_id = generate_unique_id(name, short_description, tags)
-    md_path = unique_id + '/description.md'
-    json_path = unique_id + '/metadata.json'
-    if unique_id not in index_data:
-        index_data[unique_id] = {('[' + ', '.join(tags) + ']')}
-        if not os.path.exists(unique_id):
-            index = 1
-            os.makedirs(unique_id)
-            with open(json_path, 'w') as metadata:
-                metadata.write(
-                    json.dumps(
-                        {'tags': tags,
-                         'name': name,
-                         'unique_id': unique_id,
-                         'short_description': short_description},
-                        metadata, indent=4))
-                metadata.close()
-            with open(md_path, 'w') as description:
-                description.write('#{}\n\n{}'.format(name, short_description))
-                description.close()
-            if os.path.exists(json_path) and os.path.exists(md_path):
-                with open('index.json', 'w') as file:
-                    if index_data != {}:
-                        index = index_data[unique_id]['index'] + 1
-                    file.write(
-                        json.dumps(
-                            {unique_id: {
-                                'index': index,
-                                'tags': tags
-                            }},
-                            file, indent=4))
-                    file.close()
-    print(index_data)
 
+    unique_id = generate_unique_id(name, short_description, tags)
+    print(unique_id)
+
+    while unique_id in index_data:
+        # generate new unique id
+        print("WARNING:{} found in index".format(unique_id))
+
+    metadata = generate_metadata(unique_id, name, tags, short_description)
+    description_md = generate_description_md(name, short_description)
+
+    create_path = TASKS_FOLDER + unique_id
+    ensure_or_create(create_path)
+
+    write_metadata(create_path, metadata)
+    write_description(create_path, description_md)
+    update_index(index_data, metadata)
+    write_index(index_data)
 
 if __name__ == '__main__':
     main()
