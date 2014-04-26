@@ -3,11 +3,8 @@ import os
 from new_task import import_index_json as import_json
 from new_task import get_latest_index
 
+
 TASKS_FOLDER = "tasks/"
-
-
-def build_index():
-    pass
 
 
 def get_unique_ids():
@@ -26,7 +23,7 @@ def get_data_for(unique_id):
     return data
 
 
-if __name__ == '__main__':
+def build_index():
     if not os.path.exists('index.json'):
         with open('index.json', 'w') as index_json:
             data = {}
@@ -36,3 +33,6 @@ if __name__ == '__main__':
                                    'tags': all_data['tags'],
                                    'index': get_latest_index(data) + 1}
             index_json.write((json.dumps(data, indent=4)))
+
+if __name__ == '__main__':
+    build_index()
