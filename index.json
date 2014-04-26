@@ -1,60 +1,93 @@
 {
+    "9bc0a66fde203381": {
+        "name": "n sevens in a row", 
+        "index": 6, 
+        "tags": [
+            "lists", 
+            "beginner", 
+            "for-loops", 
+            "if-clause"
+        ]
+    }, 
+    "20b8e19a81083ca7": {
+        "name": "Check if integer is prime", 
+        "index": 4, 
+        "tags": [
+            "for-loops", 
+            "if-clause", 
+            "beginner"
+        ]
+    }, 
+    "443103a26b420243": {
+        "index": 9, 
+        "name": "contains digits", 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ]
+    }, 
+    "8fe1595ff290e91c": {
+        "name": "prime number of divisors", 
+        "index": 5, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ]
+    }, 
     "c37efda56e369d7e": {
         "name": "Sum all divisors of an integer", 
+        "index": 3, 
         "tags": [
             "for-loop", 
             "modulo-divisio", 
             "beginner", 
             "recursion", 
             "integer"
-        ], 
-        "index": 3
+        ]
     }, 
-    "cb17b243823dd65a": {
-        "name": "nth-fibonacci", 
+    "9c04ba77c9fb623e": {
+        "name": "Integer palindromes", 
+        "index": 7, 
         "tags": [
-            "for-loop", 
-            "recursion", 
             "beginner", 
-            "memoization"
-        ], 
-        "index": 1
-    }, 
-    "9bc0a66fde203381": {
-        "name": "n sevens in a row", 
-        "tags": [
-            "lists", 
-            "beginner", 
-            "for-loops", 
-            "if-clause"
-        ], 
-        "index": 6
-    }, 
-    "20b8e19a81083ca7": {
-        "name": "Check if integer is prime", 
-        "tags": [
-            "for-loops", 
-            "if-clause", 
-            "beginner"
-        ], 
-        "index": 4
+            "string-slicing"
+        ]
     }, 
     "c0deb3d3b8878660": {
         "name": "sum of all digits", 
+        "index": 2, 
         "tags": [
             "for-loop", 
             "beginner", 
             "modulo-division", 
             "recursion"
-        ], 
-        "index": 2
+        ]
     }, 
-    "8fe1595ff290e91c": {
-        "name": "prime number of divisors", 
+    "fe9bc11a800364ac": {
+        "name": "contains digit", 
+        "index": 8, 
         "tags": [
             "beginner", 
             "for-loops"
-        ], 
-        "index": 5
+        ]
+    }, 
+    "2f63b3e54cdfe574": {
+        "name": "balanced numbers", 
+        "index": 10, 
+        "tags": [
+            "beginner", 
+            "string-slicing", 
+            "for-loops"
+        ]
+    }, 
+    "cb17b243823dd65a": {
+        "name": "nth-fibonacci", 
+        "index": 1, 
+        "tags": [
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
+        ]
     }
 }

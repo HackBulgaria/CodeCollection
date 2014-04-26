@@ -1,0 +1,9 @@
+{
+    "name": "Integer palindromes", 
+    "unique_id": "9c04ba77c9fb623e", 
+    "tags": [
+        "beginner", 
+        "string-slicing"
+    ], 
+    "short_description": "Check if a given integer is a palindrome."
+}

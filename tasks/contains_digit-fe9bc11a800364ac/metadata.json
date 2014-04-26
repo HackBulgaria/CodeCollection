@@ -1,0 +1,9 @@
+{
+    "unique_id": "fe9bc11a800364ac", 
+    "short_description": "Check if a given number contains a given digit.", 
+    "name": "contains digit", 
+    "tags": [
+        "beginner", 
+        "for-loops"
+    ]
+}

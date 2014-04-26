@@ -1,0 +1,9 @@
+{
+    "unique_id": "443103a26b420243", 
+    "name": "contains digits", 
+    "short_description": "Check if a given number contains all of the digits in a given list.", 
+    "tags": [
+        "beginner", 
+        "for-loops"
+    ]
+}

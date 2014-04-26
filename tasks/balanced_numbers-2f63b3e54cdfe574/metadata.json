@@ -1,0 +1,10 @@
+{
+    "unique_id": "2f63b3e54cdfe574", 
+    "name": "balanced numbers", 
+    "short_description": "Check if a given number is balanced", 
+    "tags": [
+        "beginner", 
+        "string-slicing", 
+        "for-loops"
+    ]
+}
