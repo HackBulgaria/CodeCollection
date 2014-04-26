@@ -1,7 +1,15 @@
 {
+    "9c04ba77c9fb623e": {
+        "index": 7, 
+        "name": "Integer palindromes", 
+        "tags": [
+            "beginner", 
+            "string-slicing"
+        ]
+    }, 
     "9bc0a66fde203381": {
-        "name": "n sevens in a row", 
         "index": 6, 
+        "name": "n sevens in a row", 
         "tags": [
             "lists", 
             "beginner", 
@@ -9,34 +17,54 @@
             "if-clause"
         ]
     }, 
-    "20b8e19a81083ca7": {
-        "name": "Check if integer is prime", 
-        "index": 4, 
+    "cb17b243823dd65a": {
+        "index": 1, 
+        "name": "nth-fibonacci", 
         "tags": [
-            "for-loops", 
-            "if-clause", 
-            "beginner"
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
         ]
     }, 
-    "443103a26b420243": {
-        "index": 9, 
-        "name": "contains digits", 
+    "0d9215abee86a171": {
+        "tags": [
+            "beginner", 
+            "strings", 
+            "while"
+        ], 
+        "name": "counting substrings", 
+        "index": 11
+    }, 
+    "fe9bc11a800364ac": {
+        "index": 8, 
+        "name": "contains digit", 
         "tags": [
             "beginner", 
             "for-loops"
         ]
     }, 
     "8fe1595ff290e91c": {
-        "name": "prime number of divisors", 
         "index": 5, 
+        "name": "prime number of divisors", 
         "tags": [
             "beginner", 
             "for-loops"
         ]
     }, 
+    "c0deb3d3b8878660": {
+        "index": 2, 
+        "name": "sum of all digits", 
+        "tags": [
+            "for-loop", 
+            "beginner", 
+            "modulo-division", 
+            "recursion"
+        ]
+    }, 
     "c37efda56e369d7e": {
-        "name": "Sum all divisors of an integer", 
         "index": 3, 
+        "name": "Sum all divisors of an integer", 
         "tags": [
             "for-loop", 
             "modulo-divisio", 
@@ -45,49 +73,30 @@
             "integer"
         ]
     }, 
-    "9c04ba77c9fb623e": {
-        "name": "Integer palindromes", 
-        "index": 7, 
+    "20b8e19a81083ca7": {
+        "index": 4, 
+        "name": "Check if integer is prime", 
         "tags": [
-            "beginner", 
-            "string-slicing"
-        ]
-    }, 
-    "c0deb3d3b8878660": {
-        "name": "sum of all digits", 
-        "index": 2, 
-        "tags": [
-            "for-loop", 
-            "beginner", 
-            "modulo-division", 
-            "recursion"
-        ]
-    }, 
-    "fe9bc11a800364ac": {
-        "name": "contains digit", 
-        "index": 8, 
-        "tags": [
-            "beginner", 
-            "for-loops"
+            "for-loops", 
+            "if-clause", 
+            "beginner"
         ]
     }, 
     "2f63b3e54cdfe574": {
-        "name": "balanced numbers", 
         "index": 10, 
+        "name": "balanced numbers", 
         "tags": [
             "beginner", 
             "string-slicing", 
             "for-loops"
         ]
     }, 
-    "cb17b243823dd65a": {
-        "name": "nth-fibonacci", 
-        "index": 1, 
+    "443103a26b420243": {
+        "index": 9, 
+        "name": "contains digits", 
         "tags": [
-            "for-loop", 
-            "recursion", 
             "beginner", 
-            "memoization"
+            "for-loops"
         ]
     }
 }

@@ -1,0 +1,10 @@
+{
+    "tags": [
+        "beginner", 
+        "strings", 
+        "while"
+    ], 
+    "name": "counting substrings", 
+    "short_description": "check how many times does a given substring occur in a given string.", 
+    "unique_id": "0d9215abee86a171"
+}
