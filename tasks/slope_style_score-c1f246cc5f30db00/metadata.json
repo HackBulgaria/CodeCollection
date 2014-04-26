@@ -1,0 +1,9 @@
+{
+    "tags": [
+        "beginner", 
+        "math"
+    ], 
+    "unique_id": "c1f246cc5f30db00", 
+    "name": "Slope style score", 
+    "short_description": "Write a function that calculates slope style scores"
+}
