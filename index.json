@@ -1,153 +1,162 @@
 {
-    "9bc0a66fde203381": {
-        "tags": [
-            "lists", 
-            "beginner", 
-            "for-loops", 
-            "if-clause"
-        ], 
-        "name": "n sevens in a row", 
-        "index": 6
-    }, 
-    "c0deb3d3b8878660": {
-        "tags": [
-            "for-loop", 
-            "beginner", 
-            "modulo-division", 
-            "recursion"
-        ], 
-        "name": "sum of all digits", 
-        "index": 2
-    }, 
-    "3178ee98975144e0": {
+    "d55d192e0fda9e05": {
+        "name": "increasing sequence", 
+        "index": 18, 
         "tags": [
             "beginner", 
-            "for-loops", 
-            "arrays"
-        ], 
-        "name": "biggest difference", 
-        "index": 16
+            "arrays", 
+            "for-loops"
+        ]
     }, 
     "443103a26b420243": {
+        "name": "contains digits", 
+        "index": 9, 
         "tags": [
             "beginner", 
             "for-loops"
-        ], 
-        "name": "contains digits", 
-        "index": 9
+        ]
     }, 
-    "dc07caaf54ea2926": {
+    "7b436f353c02ecc9": {
+        "name": "number to list", 
+        "index": 14, 
         "tags": [
             "beginner", 
-            "for-loops", 
-            "strings"
-        ], 
-        "name": "Count consonants", 
-        "index": 13
+            "split"
+        ]
     }, 
     "2f63b3e54cdfe574": {
+        "name": "balanced numbers", 
+        "index": 10, 
         "tags": [
             "beginner", 
             "string-slicing", 
             "for-loops"
-        ], 
-        "name": "balanced numbers", 
-        "index": 10
+        ]
+    }, 
+    "8fe1595ff290e91c": {
+        "name": "prime number of divisors", 
+        "index": 5, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ]
     }, 
     "cb17b243823dd65a": {
+        "name": "nth-fibonacci", 
+        "index": 1, 
         "tags": [
             "for-loop", 
             "recursion", 
             "beginner", 
             "memoization"
-        ], 
-        "name": "nth-fibonacci", 
-        "index": 1
+        ]
     }, 
-    "8fe1595ff290e91c": {
+    "c0deb3d3b8878660": {
+        "name": "sum of all digits", 
+        "index": 2, 
+        "tags": [
+            "for-loop", 
+            "beginner", 
+            "modulo-division", 
+            "recursion"
+        ]
+    }, 
+    "3a2fa4dd062372eb": {
+        "name": "count vowels", 
+        "index": 12, 
         "tags": [
             "beginner", 
-            "for-loops"
-        ], 
-        "name": "prime number of divisors", 
-        "index": 5
-    }, 
-    "9c04ba77c9fb623e": {
-        "tags": [
-            "beginner", 
-            "string-slicing"
-        ], 
-        "name": "Integer palindromes", 
-        "index": 7
-    }, 
-    "30a65c13cfd18ab7": {
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ], 
-        "name": "list to number", 
-        "index": 15
-    }, 
-    "0d9215abee86a171": {
-        "tags": [
-            "beginner", 
-            "strings", 
-            "while"
-        ], 
-        "name": "counting substrings", 
-        "index": 11
-    }, 
-    "c1f246cc5f30db00": {
-        "tags": [
-            "beginner", 
-            "math"
-        ], 
-        "name": "Slope style score", 
-        "index": 17
-    }, 
-    "fe9bc11a800364ac": {
-        "tags": [
-            "beginner", 
-            "for-loops"
-        ], 
-        "name": "contains digit", 
-        "index": 8
-    }, 
-    "20b8e19a81083ca7": {
-        "tags": [
             "for-loops", 
-            "if-clause", 
-            "beginner"
-        ], 
-        "name": "Check if integer is prime", 
-        "index": 4
+            "strings"
+        ]
+    }, 
+    "9bc0a66fde203381": {
+        "name": "n sevens in a row", 
+        "index": 6, 
+        "tags": [
+            "lists", 
+            "beginner", 
+            "for-loops", 
+            "if-clause"
+        ]
     }, 
     "c37efda56e369d7e": {
+        "name": "Sum all divisors of an integer", 
+        "index": 3, 
         "tags": [
             "for-loop", 
             "modulo-divisio", 
             "beginner", 
             "recursion", 
             "integer"
-        ], 
-        "name": "Sum all divisors of an integer", 
-        "index": 3
+        ]
     }, 
-    "3a2fa4dd062372eb": {
+    "dc07caaf54ea2926": {
+        "name": "Count consonants", 
+        "index": 13, 
         "tags": [
             "beginner", 
             "for-loops", 
             "strings"
-        ], 
-        "name": "count vowels", 
-        "index": 12
+        ]
     }, 
-    "7b436f353c02ecc9": {
+    "30a65c13cfd18ab7": {
+        "name": "list to number", 
+        "index": 15, 
         "tags": [
             "beginner", 
-            "split"
-        ], 
-        "name": "number to list", 
-        "index": 14
+            "for-loops"
+        ]
+    }, 
+    "3178ee98975144e0": {
+        "name": "biggest difference", 
+        "index": 16, 
+        "tags": [
+            "beginner", 
+            "for-loops", 
+            "arrays"
+        ]
+    }, 
+    "20b8e19a81083ca7": {
+        "name": "Check if integer is prime", 
+        "index": 4, 
+        "tags": [
+            "for-loops", 
+            "if-clause", 
+            "beginner"
+        ]
+    }, 
+    "c1f246cc5f30db00": {
+        "name": "Slope style score", 
+        "index": 17, 
+        "tags": [
+            "beginner", 
+            "math"
+        ]
+    }, 
+    "fe9bc11a800364ac": {
+        "name": "contains digit", 
+        "index": 8, 
+        "tags": [
+            "beginner", 
+            "for-loops"
+        ]
+    }, 
+    "9c04ba77c9fb623e": {
+        "name": "Integer palindromes", 
+        "index": 7, 
+        "tags": [
+            "beginner", 
+            "string-slicing"
+        ]
+    }, 
+    "0d9215abee86a171": {
+        "name": "counting substrings", 
+        "index": 11, 
+        "tags": [
+            "beginner", 
+            "strings", 
+            "while"
+        ]
     }
 }

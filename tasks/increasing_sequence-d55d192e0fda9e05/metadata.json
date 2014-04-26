@@ -1,0 +1,10 @@
+{
+    "unique_id": "d55d192e0fda9e05", 
+    "short_description": "Check if a given sequence is monotonously increasing.", 
+    "name": "increasing sequence", 
+    "tags": [
+        "beginner", 
+        "arrays", 
+        "for-loops"
+    ]
+}
