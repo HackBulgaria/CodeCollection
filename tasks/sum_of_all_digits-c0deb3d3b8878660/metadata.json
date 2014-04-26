@@ -1,0 +1,11 @@
+{
+    "tags": [
+        "for-loop", 
+        "beginner", 
+        "modulo-division", 
+        "recursion"
+    ], 
+    "name": "Sum of all digits", 
+    "short_description": "Find the sum of all digits between 1 and n", 
+    "unique_id": "c0deb3d3b8878660"
+}

@@ -1,4 +1,14 @@
 {
+    "c0deb3d3b8878660": {
+        "tags": [
+            "for-loop", 
+            "beginner", 
+            "modulo-division", 
+            "recursion"
+        ], 
+        "name": "sum of all digits", 
+        "index": 2
+    }, 
     "cb17b243823dd65a": {
         "index": 1, 
         "name": "nth-fibonacci", 
