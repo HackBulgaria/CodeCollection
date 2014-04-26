@@ -18,6 +18,7 @@ def import_index_json(filename):
             data = json.load(data_file)
         except ValueError:
             data = {}
+    data_file.close()
     return data
 
 
@@ -94,13 +95,11 @@ def write_index(index_data):
 def main():
     ensure_or_create(TASKS_FOLDER)
     index_data = import_index_json('index.json')
-    print(index_data)
     name = input('Enter name: ')
     short_description = input('Enter short description: ')
     tags = input('Enter tags: ').replace(' ', '').split(',')
 
     unique_id = generate_unique_id(name, short_description, tags)
-    print(unique_id)
 
     while unique_id in index_data:
         print("WARNING:{} found in index".format(unique_id))
@@ -116,6 +115,7 @@ def main():
     write_description(create_path, description_md)
     update_index(index_data, metadata)
     write_index(index_data)
+    print('Successfully added a new task!')
 
 if __name__ == '__main__':
     main()

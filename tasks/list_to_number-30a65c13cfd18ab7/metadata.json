@@ -1,0 +1,9 @@
+{
+    "short_description": "Turn a list of digits into a number", 
+    "name": "list to number", 
+    "unique_id": "30a65c13cfd18ab7", 
+    "tags": [
+        "beginner", 
+        "for-loops"
+    ]
+}
