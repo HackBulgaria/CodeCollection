@@ -49,15 +49,13 @@ def get_md_for(unique_id):
 
 
 def build_readme():
-    if not os.path.exists('README.md'):
-        with open('README.md', 'w') as readme:
-            readme.write('# CodeCollection\n')
-            data = get_data_by_id()
-            for unique_id, info in data.items():
-                readme.write('## {}\n'.format(info[0]))
-                readme.write('{}\n\n'.format(info[1]))
-                readme.write('[{}]({})\n'.format(
-                    info[0], get_md_for(unique_id)))
+    with open('README.md', 'w') as readme:
+        readme.write('# CodeCollection\n')
+        data = get_data_by_id()
+        for unique_id, info in data.items():
+            readme.write('## [{}]({})\n'.format(
+                info[0], get_md_for(unique_id)))
+            readme.write('{}\n\n'.format(info[1]))
 
 
 if __name__ == '__main__':

@@ -2,7 +2,7 @@ from hashlib import sha1
 import json
 import os
 from time import time
-from new_task import build_readme
+from build_readme import build_readme
 
 
 TASKS_FOLDER = "tasks/"

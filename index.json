@@ -1,111 +1,203 @@
 {
-    "3178ee98975144e0": {
-        "name": "biggest difference", 
-        "tags": [
-            "beginner", 
-            "for-loop", 
-            "arrays"
-        ], 
-        "index": 4
-    }, 
-    "c1f246cc5f30db00": {
-        "name": "Slope style score", 
-        "tags": [
-            "beginner", 
-            "math"
-        ], 
-        "index": 8
-    }, 
-    "dc07caaf54ea2926": {
-        "name": "Count consonants", 
-        "tags": [
-            "beginner", 
-            "for-loop", 
-            "strings"
-        ], 
-        "index": 13
-    }, 
-    "d55d192e0fda9e05": {
-        "name": "increasing sequence", 
-        "tags": [
-            "beginner", 
-            "arrays", 
-            "for-loop"
-        ], 
-        "index": 7
-    }, 
-    "0d9215abee86a171": {
-        "name": "counting substrings", 
-        "tags": [
-            "beginner", 
-            "strings", 
-            "while-loop"
-        ], 
-        "index": 15
-    }, 
-    "0c0b76de588f181f": {
-        "name": "calculate coins", 
-        "tags": [
-            "beginner", 
-            "for-loop", 
-            "math"
-        ], 
-        "index": 16
-    }, 
-    "3ab8ac2e97066adb": {
-        "name": "zodiac", 
-        "tags": [
-            "if-clauses", 
-            "beginner"
-        ], 
-        "index": 22
-    }, 
-    "20b8e19a81083ca7": {
-        "name": "Check if integer is prime", 
-        "tags": [
-            "for-loop", 
-            "if-clause", 
-            "beginner"
-        ], 
-        "index": 10
-    }, 
-    "3a2fa4dd062372eb": {
-        "name": "count vowels", 
-        "tags": [
-            "beginner", 
-            "for-loop", 
-            "strings"
-        ], 
-        "index": 1
-    }, 
-    "30a65c13cfd18ab7": {
-        "name": "list to number", 
-        "tags": [
-            "beginner", 
-            "for-loop"
-        ], 
-        "index": 11
-    }, 
     "c0deb3d3b8878660": {
-        "name": "Sum of all digits", 
+        "index": 6, 
         "tags": [
             "for-loop", 
             "beginner", 
             "modulo-division", 
             "recursion"
         ], 
-        "index": 6
+        "name": "Sum of all digits"
+    }, 
+    "dc07caaf54ea2926": {
+        "index": 13, 
+        "tags": [
+            "beginner", 
+            "for-loop", 
+            "strings"
+        ], 
+        "name": "Count consonants"
+    }, 
+    "bf4ba060ff10af19": {
+        "index": 25, 
+        "tags": [
+            "sad"
+        ], 
+        "name": "asdasd"
+    }, 
+    "9bc0a66fde203381": {
+        "index": 9, 
+        "tags": [
+            "lists", 
+            "beginner", 
+            "for-loop", 
+            "if-clause"
+        ], 
+        "name": "n sevens in a row"
+    }, 
+    "30a65c13cfd18ab7": {
+        "index": 11, 
+        "tags": [
+            "beginner", 
+            "for-loop"
+        ], 
+        "name": "list to number"
+    }, 
+    "cb17b243823dd65a": {
+        "index": 2, 
+        "tags": [
+            "for-loop", 
+            "recursion", 
+            "beginner", 
+            "memoization"
+        ], 
+        "name": "nth-fibonacci"
+    }, 
+    "443103a26b420243": {
+        "index": 12, 
+        "tags": [
+            "beginner", 
+            "for-loop"
+        ], 
+        "name": "contains digits"
+    }, 
+    "153222027f0b17e4": {
+        "index": 23, 
+        "tags": [
+            "asda", 
+            "dsadsad"
+        ], 
+        "name": "aaa"
+    }, 
+    "0c0b76de588f181f": {
+        "index": 16, 
+        "tags": [
+            "beginner", 
+            "for-loop", 
+            "math"
+        ], 
+        "name": "calculate coins"
+    }, 
+    "c1f246cc5f30db00": {
+        "index": 8, 
+        "tags": [
+            "beginner", 
+            "math"
+        ], 
+        "name": "Slope style score"
+    }, 
+    "3178ee98975144e0": {
+        "index": 4, 
+        "tags": [
+            "beginner", 
+            "for-loop", 
+            "arrays"
+        ], 
+        "name": "biggest difference"
+    }, 
+    "20b8e19a81083ca7": {
+        "index": 10, 
+        "tags": [
+            "for-loop", 
+            "if-clause", 
+            "beginner"
+        ], 
+        "name": "Check if integer is prime"
+    }, 
+    "5ceb67a30141aea4": {
+        "index": 21, 
+        "tags": [
+            "for-loop", 
+            "beginner", 
+            "math"
+        ], 
+        "name": "Integer prime factorization"
+    }, 
+    "138b32aecb6f1228": {
+        "index": 3, 
+        "tags": [
+            "beginner", 
+            "arrays", 
+            "for-loop"
+        ], 
+        "name": "Descreasing sequence"
+    }, 
+    "3ab8ac2e97066adb": {
+        "index": 22, 
+        "tags": [
+            "if-clauses", 
+            "beginner"
+        ], 
+        "name": "zodiac"
+    }, 
+    "0d9215abee86a171": {
+        "index": 15, 
+        "tags": [
+            "beginner", 
+            "strings", 
+            "while-loop"
+        ], 
+        "name": "counting substrings"
+    }, 
+    "8fe1595ff290e91c": {
+        "index": 18, 
+        "tags": [
+            "beginner", 
+            "for-loop"
+        ], 
+        "name": "prime number of divisors"
+    }, 
+    "fe9bc11a800364ac": {
+        "index": 20, 
+        "tags": [
+            "beginner", 
+            "for-loop"
+        ], 
+        "name": "contains digit"
+    }, 
+    "3a2fa4dd062372eb": {
+        "index": 1, 
+        "tags": [
+            "beginner", 
+            "for-loop", 
+            "strings"
+        ], 
+        "name": "count vowels"
+    }, 
+    "d55d192e0fda9e05": {
+        "index": 7, 
+        "tags": [
+            "beginner", 
+            "arrays", 
+            "for-loop"
+        ], 
+        "name": "increasing sequence"
+    }, 
+    "e39f9fcdbf9240df": {
+        "index": 24, 
+        "tags": [
+            "asd"
+        ], 
+        "name": "asdsad"
+    }, 
+    "9c04ba77c9fb623e": {
+        "index": 19, 
+        "tags": [
+            "beginner", 
+            "string-slicing"
+        ], 
+        "name": "Integer palindromes"
     }, 
     "7b436f353c02ecc9": {
-        "name": "number to list", 
+        "index": 17, 
         "tags": [
             "beginner", 
             "split"
         ], 
-        "index": 17
+        "name": "number to list"
     }, 
     "c37efda56e369d7e": {
-        "name": "Sum all divisors of an integer", 
+        "index": 14, 
         "tags": [
             "for-loop", 
             "modulo-division", 
@@ -113,85 +205,15 @@
             "recursion", 
             "integer"
         ], 
-        "index": 14
-    }, 
-    "443103a26b420243": {
-        "name": "contains digits", 
-        "tags": [
-            "beginner", 
-            "for-loop"
-        ], 
-        "index": 12
-    }, 
-    "9c04ba77c9fb623e": {
-        "name": "Integer palindromes", 
-        "tags": [
-            "beginner", 
-            "string-slicing"
-        ], 
-        "index": 19
-    }, 
-    "9bc0a66fde203381": {
-        "name": "n sevens in a row", 
-        "tags": [
-            "lists", 
-            "beginner", 
-            "for-loop", 
-            "if-clause"
-        ], 
-        "index": 9
-    }, 
-    "fe9bc11a800364ac": {
-        "name": "contains digit", 
-        "tags": [
-            "beginner", 
-            "for-loop"
-        ], 
-        "index": 20
-    }, 
-    "8fe1595ff290e91c": {
-        "name": "prime number of divisors", 
-        "tags": [
-            "beginner", 
-            "for-loop"
-        ], 
-        "index": 18
+        "name": "Sum all divisors of an integer"
     }, 
     "2f63b3e54cdfe574": {
-        "name": "balanced numbers", 
+        "index": 5, 
         "tags": [
             "beginner", 
             "string-slicing", 
             "for-loop"
         ], 
-        "index": 5
-    }, 
-    "138b32aecb6f1228": {
-        "name": "Descreasing sequence", 
-        "tags": [
-            "beginner", 
-            "arrays", 
-            "for-loop"
-        ], 
-        "index": 3
-    }, 
-    "5ceb67a30141aea4": {
-        "name": "Integer prime factorization", 
-        "tags": [
-            "for-loop", 
-            "beginner", 
-            "math"
-        ], 
-        "index": 21
-    }, 
-    "cb17b243823dd65a": {
-        "name": "nth-fibonacci", 
-        "tags": [
-            "for-loop", 
-            "recursion", 
-            "beginner", 
-            "memoization"
-        ], 
-        "index": 2
+        "name": "balanced numbers"
     }
 }
