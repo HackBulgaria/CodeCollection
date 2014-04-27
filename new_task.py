@@ -2,6 +2,7 @@ from hashlib import sha1
 import json
 import os
 from time import time
+from new_task import build_readme
 
 
 TASKS_FOLDER = "tasks/"
@@ -115,6 +116,7 @@ def main():
     write_description(create_path, description_md)
     update_index(index_data, metadata)
     write_index(index_data)
+    build_readme()
     print('Successfully added a new task!')
 
 if __name__ == '__main__':

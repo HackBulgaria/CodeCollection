@@ -23,7 +23,7 @@ def import_index_json(filename):
 
 
 def get_data_by_id():
-    task_names_by_id = {}
+    data_by_id = {}
     for directory in os.walk(TASKS_FOLDER):
         for unique_id in get_unique_ids():
             if directory[0].endswith(unique_id)\
@@ -32,9 +32,10 @@ def get_data_by_id():
                     directory[0] + '/metadata.json')['short_description']
                 task_name = ' '.join(
                     directory[0].split('-')[:-1])[len(TASKS_FOLDER):]
-                task_names_by_id[unique_id] = task_name.replace('_', ' ')
+                data_by_id[unique_id] = [task_name.replace('_', ' '),
+                                         short_description]
                 break
-    return [task_names_by_id, short_description]
+    return data_by_id
 
 
 def get_md_for(unique_id):
@@ -51,11 +52,12 @@ def build_readme():
     if not os.path.exists('README.md'):
         with open('README.md', 'w') as readme:
             readme.write('# CodeCollection\n')
-            for unique_id, name in get_data_by_id()[0].items():
-                readme.write('## {}\n'.format(name))
-                readme.write('{}\n\n'.format(get_data_by_id()[1]))
+            data = get_data_by_id()
+            for unique_id, info in data.items():
+                readme.write('## {}\n'.format(info[0]))
+                readme.write('{}\n\n'.format(info[1]))
                 readme.write('[{}]({})\n'.format(
-                    name, get_md_for(unique_id)))
+                    info[0], get_md_for(unique_id)))
 
 
 if __name__ == '__main__':
