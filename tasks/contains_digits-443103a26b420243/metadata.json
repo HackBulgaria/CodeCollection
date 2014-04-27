@@ -4,6 +4,6 @@
     "short_description": "Check if a given number contains all of the digits in a given list.", 
     "tags": [
         "beginner", 
-        "for-loops"
+        "for-loop"
     ]
 }

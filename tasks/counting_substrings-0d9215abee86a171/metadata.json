@@ -2,7 +2,7 @@
     "tags": [
         "beginner", 
         "strings", 
-        "while"
+        "while-loop"
     ], 
     "name": "counting substrings", 
     "short_description": "check how many times does a given substring occur in a given string.", 

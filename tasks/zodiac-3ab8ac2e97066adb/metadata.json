@@ -2,7 +2,7 @@
     "name": "zodiac", 
     "short_description": "Make a function that returns the zodiac sign for a given date.", 
     "tags": [
-        "if-clauses", 
+        "if-clause", 
         "beginner"
     ], 
     "unique_id": "3ab8ac2e97066adb"

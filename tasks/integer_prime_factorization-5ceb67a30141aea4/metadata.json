@@ -2,7 +2,7 @@
     "short_description": "Implement a function which returns the prime factorization of a given number", 
     "name": "Integer prime factorization", 
     "tags": [
-        "for-loops", 
+        "for-loop", 
         "beginner", 
         "math"
     ], 
